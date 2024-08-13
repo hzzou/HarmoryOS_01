@@ -1,0 +1,21 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Second",
+    "pages/ToDoList",
+    "pages/Web",
+    "pages/KnowledgeMap",
+    "pages/Five",
+    "pages/Nav",
+    "pages/httpDemo/Index",
+    "pages/httpDemo/EditPage",
+    "pages/fontDemo/Index",
+    "pages/fontDemo/SetFontSize",
+    "pages/firstStart/Launch",
+    "pages/firstStart/Advertise",
+    "pages/firstStart/Home",
+    "pages/firstStart/Privacy",
+    "pages/RefreshDemo",
+    "pages/lazy/LazyDemo"
+  ]
+}

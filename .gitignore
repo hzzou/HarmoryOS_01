@@ -1,0 +1,6 @@
+.hvigor/
+oh_modules/
+.idea/
+.DS_Store
+/entry/build/
+/entry/.preview/
