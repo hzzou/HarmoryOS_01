@@ -16,6 +16,7 @@
     "pages/firstStart/Home",
     "pages/firstStart/Privacy",
     "pages/RefreshDemo",
-    "pages/lazy/LazyDemo"
+    "pages/lazy/LazyDemo",
+    "pages/forEach/ListSort"
   ]
 }

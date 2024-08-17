@@ -15,7 +15,11 @@
     "abilities": [
       {
         "name": "EntryAbility",
+        // 默认singleton模式
+        // "launchType": "specified",
+        // 更改HAP入口
         "srcEntry": "./ets/entryability/EntryAbility.ets",
+        //"srcEntry": "./ets/customability/customStage.ets",
         "description": "$string:EntryAbility_desc",
         "icon": "$media:layered_image",
         "label": "$string:EntryAbility_label",
