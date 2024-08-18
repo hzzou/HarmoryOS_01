@@ -9,12 +9,35 @@
 </head>
 <body>
     <div>本地页面</div>
+    <div id="div_1"></div>
     <script type="text/javascript">
         const fn_1 = ()=>{
-            console.log("运行了h5页面的方法");
-            alert("hzlzh");
-            return "来自h5";
+            console.log("运行了h5页面的方法 fn_1");
+            alert("hzlzh fn_1");
+            return "来自h5的fn_1";
         }
+
+        const fn_2 = ()=>{
+            console.log("运行了h5页面的方法 fn_2");
+            alert("hzlzh fn_2");
+            return "来自h5的fn_2";
+        }
+
+        const fn_3 = ()=>{
+            let m = confirm('调用原生的confirm');
+            let x = "";
+            console.log("m: ",m)
+            if(m){
+                x = "OK";
+            }
+            else{
+                x = "Cancel";
+            }
+
+            document.querySelector("#div_1").innerHTML = x;
+        }
+
+        //fn_3();
     </script>
 </body>
 </html>
